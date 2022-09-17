@@ -23,3 +23,6 @@ modelo.fit(x_treino,y_treino)
 #imprimindo resultados:
 resultado = modelo.score(x_teste, y_teste)
 print("Acurácia:", resultado)
+
+
+## AULA DO CURSO DO LIRA
