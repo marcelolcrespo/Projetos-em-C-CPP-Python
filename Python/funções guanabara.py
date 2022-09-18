@@ -3,7 +3,7 @@
 #    s = a + b
 #    print(f'A soma de a + b = {s}')
 
-def contador(* num):
+def contador(* num):  #==== Desempacotar (* num) dentro de um parametro
     for valor in num:
         print(f'{valor} ', end='') #=== Quebrar o valor apenas ao final do siclo for
     print('Fim!')
