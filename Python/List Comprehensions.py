@@ -25,8 +25,8 @@ print(lista)
 #lista2 = [ v for in 'asdafasf' ] ========== iterar letras na lista com List Comprehensios
 #print(lista2)
 
-#lista2 = [ (v,b) for v in [123] for b in [4,5,6] ] if v % 2 == 0
-#print(lista2)
+lista2 = [ (v,b) for v in [123] for b in [4,5,6] ] if v % 2 == 0
+print(lista2)
 
 lista2 = [ v+1 for v in range(10)] ## Usou 1 linha para popular a lista
 print(lista2)
