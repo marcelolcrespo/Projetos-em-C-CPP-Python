@@ -28,13 +28,13 @@ def bonus_de_raridade(a, b):
         print('Porcentagem bonus: {:.2f}%'.format(resultado))
         print('Item Raro!')
     elif 4.8 <= resultado <= 7.1:
-        print('Porcentagem bonus: {:.2f}'.format(resultado))
+        print('Porcentagem bonus: {:.2f}%'.format(resultado))
         print('Item Épico!')
     elif 7.5 <= resultado <= 11:
-        print('Porcentagem bonus: {:.2f}'.format(resultado))
+        print('Porcentagem bonus: {:.2f}%'.format(resultado))
         print('Item Mítico!')
     elif 11.5 <= resultado <= 15:
-        print('Porcentagem bonus: {:.2f}'.format(resultado))
+        print('Porcentagem bonus: {:.2f}%'.format(resultado))
         print('Item Lendário!')
 #===================================================================================
 #====================== Calcular refino ============================================
