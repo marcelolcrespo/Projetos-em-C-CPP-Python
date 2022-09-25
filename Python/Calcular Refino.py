@@ -9,7 +9,7 @@ resultado = 0
 #====================== Recebendo valores ==========================================
 def recebeValores(a, b):
     a = int(input('Ataque do item: '))
-    b = int(input('Raridade do item: '))
+    b = int(input('Ataque do item c/ raridade: '))
     global atk
     global raridade
     atk = a
@@ -27,7 +27,7 @@ def bonus_de_raridade(a, b):
     if 2 <= resultado <= 4:
         print('Porcentagem bonus: {:.2f}%'.format(resultado))
         print('Item Raro!')
-    elif 4.8 <= resultado <= 7.1:
+    elif 4.5 <= resultado <= 7.1:
         print('Porcentagem bonus: {:.2f}%'.format(resultado))
         print('Item Épico!')
     elif 7.5 <= resultado <= 11:
@@ -36,6 +36,9 @@ def bonus_de_raridade(a, b):
     elif 11.5 <= resultado <= 15:
         print('Porcentagem bonus: {:.2f}%'.format(resultado))
         print('Item Lendário!')
+    elif 15.5 <= resultado <= 20:
+        print('Porcentagem bonus: {:.2f}%'.format(resultado))
+        print('Item Supremo!')
 #===================================================================================
 #====================== Calcular refino ============================================
 def calculo_refino(a, b):
@@ -81,6 +84,6 @@ def menu_opções():
             print('\n')
             continue
 #===================================================================================
-#======================= Programa Principal:: ======================================
+#========================== Programa Principal:: ===================================
 
 menu_opções()
