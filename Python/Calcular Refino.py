@@ -27,16 +27,16 @@ def bonus_de_raridade(a, b):
     if 2 <= resultado <= 4:
         print('Porcentagem bonus: {:.2f}%'.format(resultado))
         print('Item Raro!')
-    elif 4.5 <= resultado <= 7.1:
+    elif 4.2 <= resultado <= 7.1:
         print('Porcentagem bonus: {:.2f}%'.format(resultado))
         print('Item Épico!')
-    elif 7.5 <= resultado <= 11:
+    elif 7.2 <= resultado <= 11.1:
         print('Porcentagem bonus: {:.2f}%'.format(resultado))
         print('Item Mítico!')
-    elif 11.5 <= resultado <= 15:
+    elif 11.3 <= resultado <= 15:
         print('Porcentagem bonus: {:.2f}%'.format(resultado))
         print('Item Lendário!')
-    elif 15.5 <= resultado <= 20:
+    elif 15.05 <= resultado <= 20:
         print('Porcentagem bonus: {:.2f}%'.format(resultado))
         print('Item Supremo!')
 #===================================================================================
@@ -80,7 +80,7 @@ def menu_opções():
         if rodar == 1:
             break
         else:
-            delay()
+            #delay()
             print('\n')
             continue
 #===================================================================================
